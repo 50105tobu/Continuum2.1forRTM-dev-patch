@@ -1,0 +1,987 @@
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Common/MatID.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Common/MatID.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Common/MatID.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Common/MatID.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Common/PhysicalSky.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Common/PhysicalSky.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Common/PhysicalSky.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Common/PhysicalSky.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Common/PrecomputedSky.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Common/PrecomputedSky.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Common/PrecomputedSky.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Common/PrecomputedSky.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Common/Shadows.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Common/Shadows.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Common/Shadows.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Common/Shadows.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Debug.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Debug.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Debug.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Debug.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Exit.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Exit.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Exit.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Exit.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/ACES/ACES.fsh b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/ACES/ACES.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/ACES/ACES.fsh
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/ACES/ACES.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/ACES/LMT.fsh b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/ACES/LMT.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/ACES/LMT.fsh
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/ACES/LMT.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/ACES/ODT.fsh b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/ACES/ODT.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/ACES/ODT.fsh
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/ACES/ODT.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/ACES/Tonescales.fsh b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/ACES/Tonescales.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/ACES/Tonescales.fsh
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/ACES/Tonescales.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/ACES/Utility.fsh b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/ACES/Utility.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/ACES/Utility.fsh
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/ACES/Utility.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/Camera.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/Camera.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/Camera.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/Camera.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/ColorCorrection.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/ColorCorrection.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/ColorCorrection.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/ColorCorrection.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/FilmicToningOperator.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/FilmicToningOperator.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Fragment/FilmicToningOperator.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Fragment/FilmicToningOperator.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/GLSL_Version.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/GLSL_Version.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/GLSL_Version.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/GLSL_Version.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Syntax.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Syntax.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Syntax.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Syntax.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Uniform/ProjectionMatrices.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Uniform/ProjectionMatrices.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Uniform/ProjectionMatrices.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Uniform/ProjectionMatrices.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Uniform/ShadowDistortion.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Uniform/ShadowDistortion.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Uniform/ShadowDistortion.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Uniform/ShadowDistortion.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Uniform/ShadowMatrices.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Uniform/ShadowMatrices.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Uniform/ShadowMatrices.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Uniform/ShadowMatrices.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Uniform/TemporalJitter.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Uniform/TemporalJitter.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Uniform/TemporalJitter.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Uniform/TemporalJitter.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Utilities.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Utilities.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Utilities.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Utilities.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Utilities/Clamping.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Utilities/Clamping.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Utilities/Clamping.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Utilities/Clamping.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Utilities/ColorConversions.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Utilities/ColorConversions.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Utilities/ColorConversions.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Utilities/ColorConversions.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Utilities/Encoding.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Utilities/Encoding.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Utilities/Encoding.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Utilities/Encoding.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Utilities/Noise.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Utilities/Noise.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Utilities/Noise.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Utilities/Noise.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Utilities/Pow.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Utilities/Pow.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Utilities/Pow.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Utilities/Pow.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/ContinuumLib/Utilities/SphericalHarmonics.glsl b/Continuum 2.1 forRTM 0.5.0/ContinuumLib/Utilities/SphericalHarmonics.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/ContinuumLib/Utilities/SphericalHarmonics.glsl
+rename to Continuum 2.1 forRTM 0.5.0/ContinuumLib/Utilities/SphericalHarmonics.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/DevNotes.txt b/Continuum 2.1 forRTM 0.5.0/DevNotes.txt
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/DevNotes.txt
+rename to Continuum 2.1 forRTM 0.5.0/DevNotes.txt
+diff --git a/Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/AmbientOcclusion.fsh b/Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/AmbientOcclusion.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/AmbientOcclusion.fsh
+rename to Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/AmbientOcclusion.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/DiffuseLighting.fsh b/Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/DiffuseLighting.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/DiffuseLighting.fsh
+rename to Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/DiffuseLighting.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/GlobalIllumination.fsh b/Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/GlobalIllumination.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/GlobalIllumination.fsh
+rename to Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/GlobalIllumination.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/LightmapShading.fsh b/Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/LightmapShading.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/LightmapShading.fsh
+rename to Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/LightmapShading.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/PlanarClouds.fsh b/Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/PlanarClouds.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/PlanarClouds.fsh
+rename to Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/PlanarClouds.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/ScreenspaceRaytracer.fsh b/Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/ScreenspaceRaytracer.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/ScreenspaceRaytracer.fsh
+rename to Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/ScreenspaceRaytracer.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/SpecularLighting.fsh b/Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/SpecularLighting.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/SpecularLighting.fsh
+rename to Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/SpecularLighting.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/TerrainParallax.fsh b/Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/TerrainParallax.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/TerrainParallax.fsh
+rename to Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/TerrainParallax.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/VolumetricClouds.fsh b/Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/VolumetricClouds.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/VolumetricClouds.fsh
+rename to Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/VolumetricClouds.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/VolumetricLighting.fsh b/Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/VolumetricLighting.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/VolumetricLighting.fsh
+rename to Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/VolumetricLighting.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/WaterVolume.fsh b/Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/WaterVolume.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/WaterVolume.fsh
+rename to Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/WaterVolume.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/WaterWaves.fsh b/Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/WaterWaves.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/InternalLib/Fragment/WaterWaves.fsh
+rename to Continuum 2.1 forRTM 0.5.0/InternalLib/Fragment/WaterWaves.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/InternalLib/Vertex/VertexDisplacement.vsh b/Continuum 2.1 forRTM 0.5.0/InternalLib/Vertex/VertexDisplacement.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/InternalLib/Vertex/VertexDisplacement.vsh
+rename to Continuum 2.1 forRTM 0.5.0/InternalLib/Vertex/VertexDisplacement.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/README.md b/Continuum 2.1 forRTM 0.5.0/README.md
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/README.md
+rename to Continuum 2.1 forRTM 0.5.0/README.md
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Camera/CameraSettings.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Camera/CameraSettings.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Camera/CameraSettings.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Camera/CameraSettings.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Lighting/AOSettings.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Lighting/AOSettings.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Lighting/AOSettings.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Lighting/AOSettings.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Lighting/CausticsSettings.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Lighting/CausticsSettings.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Lighting/CausticsSettings.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Lighting/CausticsSettings.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Lighting/DiffuseSettings.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Lighting/DiffuseSettings.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Lighting/DiffuseSettings.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Lighting/DiffuseSettings.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Lighting/ShadowSettings.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Lighting/ShadowSettings.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Lighting/ShadowSettings.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Lighting/ShadowSettings.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Lighting/SpecularSettings.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Lighting/SpecularSettings.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Lighting/SpecularSettings.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Lighting/SpecularSettings.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Lighting/TimeOverride.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Lighting/TimeOverride.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Lighting/TimeOverride.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Lighting/TimeOverride.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Lighting/VolumetricLightSettings.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Lighting/VolumetricLightSettings.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Lighting/VolumetricLightSettings.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Lighting/VolumetricLightSettings.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Misc/AntialiasingSettings.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Misc/AntialiasingSettings.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Misc/AntialiasingSettings.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Misc/AntialiasingSettings.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Misc/MiscSettings.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Misc/MiscSettings.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Misc/MiscSettings.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Misc/MiscSettings.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Misc/ParallaxSettings.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Misc/ParallaxSettings.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Misc/ParallaxSettings.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Misc/ParallaxSettings.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Misc/VertexSettings.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Misc/VertexSettings.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Misc/VertexSettings.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Misc/VertexSettings.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/PostProcess/PostProcessSettings.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/PostProcess/PostProcessSettings.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/PostProcess/PostProcessSettings.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/PostProcess/PostProcessSettings.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/SettingsManager.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/SettingsManager.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/SettingsManager.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/SettingsManager.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Sky/CloudConstants.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Sky/CloudConstants.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Sky/CloudConstants.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Sky/CloudConstants.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Sky/SkyConstants.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Sky/SkyConstants.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Sky/SkyConstants.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Sky/SkyConstants.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Sky/SkyOverrides.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Sky/SkyOverrides.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Sky/SkyOverrides.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Sky/SkyOverrides.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Textures/data.bin b/Continuum 2.1 forRTM 0.5.0/UserLib/Textures/data.bin
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Textures/data.bin
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Textures/data.bin
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Textures/noise.png b/Continuum 2.1 forRTM 0.5.0/UserLib/Textures/noise.png
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Textures/noise.png
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Textures/noise.png
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Textures/noise.png.mcmeta b/Continuum 2.1 forRTM 0.5.0/UserLib/Textures/noise.png.mcmeta
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Textures/noise.png.mcmeta
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Textures/noise.png.mcmeta
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Toning/TonemapOverride.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Toning/TonemapOverride.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Toning/TonemapOverride.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Toning/TonemapOverride.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/UserLib/Toning/ToningSettings.glsl b/Continuum 2.1 forRTM 0.5.0/UserLib/Toning/ToningSettings.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/UserLib/Toning/ToningSettings.glsl
+rename to Continuum 2.1 forRTM 0.5.0/UserLib/Toning/ToningSettings.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/Antialiasing.glsl b/Continuum 2.1 forRTM 0.5.0/shaders/Antialiasing.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/Antialiasing.glsl
+rename to Continuum 2.1 forRTM 0.5.0/shaders/Antialiasing.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/Blur.glsl b/Continuum 2.1 forRTM 0.5.0/shaders/Blur.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/Blur.glsl
+rename to Continuum 2.1 forRTM 0.5.0/shaders/Blur.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/Composite0.glsl b/Continuum 2.1 forRTM 0.5.0/shaders/Composite0.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/Composite0.glsl
+rename to Continuum 2.1 forRTM 0.5.0/shaders/Composite0.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/Composite1.glsl b/Continuum 2.1 forRTM 0.5.0/shaders/Composite1.glsl
+similarity index 98%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/Composite1.glsl
+rename to Continuum 2.1 forRTM 0.5.0/shaders/Composite1.glsl
+index d7cb0c8..17cf613 100644
+--- a/Continuum 2.1 forRTM 0.4.0/shaders/Composite1.glsl	
++++ b/Continuum 2.1 forRTM 0.5.0/shaders/Composite1.glsl	
+@@ -304,7 +304,7 @@ void main() {
+     bool isMetal = metalIOR[0].x > 0.0 || reflectivity >= 1.0;
+ 
+     if (isMetal) {
+-        Buffer5 = vec4(albedo.rgb, materialData2.r);
++        Buffer5 = vec4(albedo.rgb, EncodeNormal(materialData2.rgb)); //fragn
+     }
+ 
+     if(materialID == 33.0){ materialID = 1.0;}
+@@ -314,11 +314,10 @@ void main() {
+     bool isEmissive = materialID == 11.0 || emissivity > 0.0; //emissive指定 または 発光%の指定があるか
+     bool isHand    = materialID == 12.0;
+ 
+-    vec3 worldNormal = DecodeNormal(materialData.x);
++    vec3 worldNormal = texture(colortex6, texcoord).rgb; //fragn
+     vec3 normal = mat3(gbufferModelView) * worldNormal;
+-    //Buffer7 = vec4(0.9);
+ 
+-    vec3 flatWorldNormal = DecodeNormal(materialData2.r);
++    vec3 flatWorldNormal = worldNormal; //fragn
+ 
+     float dither = bayer64(gl_FragCoord.xy);
+     #ifdef TAA
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/Composite2.glsl b/Continuum 2.1 forRTM 0.5.0/shaders/Composite2.glsl
+similarity index 99%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/Composite2.glsl
+rename to Continuum 2.1 forRTM 0.5.0/shaders/Composite2.glsl
+index 23f4a95..9c60446 100644
+--- a/Continuum 2.1 forRTM 0.4.0/shaders/Composite2.glsl	
++++ b/Continuum 2.1 forRTM 0.5.0/shaders/Composite2.glsl	
+@@ -739,13 +739,13 @@ void main() {
+     //if(texture(colortex1, texcoord).r == 1.0){ isTransparent = false;}
+ 
+     vec4 materialData = textureRaw(colortex2, texcoord);
+-	vec3 worldNormal = DecodeNormal(materialData.x);
++	vec3 worldNormal = texture(colortex6, texcoord).rgb; //fragn
+     vec3 normal = mat3(gbufferModelView) * worldNormal;
+ 
+     vec2 coord = texcoord;
+ 
+-    vec3 flatWorldNormal = DecodeNormal(texture(colortex6, texcoord).r);
+-    vec3 flatNormal = mat3(gbufferModelView) * flatWorldNormal;
++    vec3 flatWorldNormal = worldNormal; //fragn
++    vec3 flatNormal = normal;
+     
+     
+ 
+@@ -811,7 +811,7 @@ void main() {
+         vec3 shadows;
+ 
+         
+-        flatWorldNormal = DecodeNormal(texture(colortex5, texcoord).a);
++        //flatWorldNormal = DecodeNormal(texture(colortex5, texcoord).a); //fragn
+         
+ 
+         
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/Composite3.glsl b/Continuum 2.1 forRTM 0.5.0/shaders/Composite3.glsl
+similarity index 99%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/Composite3.glsl
+rename to Continuum 2.1 forRTM 0.5.0/shaders/Composite3.glsl
+index a909a9f..bb359ba 100644
+--- a/Continuum 2.1 forRTM 0.4.0/shaders/Composite3.glsl	
++++ b/Continuum 2.1 forRTM 0.5.0/shaders/Composite3.glsl	
+@@ -744,15 +744,13 @@ void main() {
+     //if(texture(colortex1, texcoord).r == 1.0){ isTransparent = false;}
+ 
+     vec4 materialData = textureRaw(colortex2, texcoord);
+-	vec3 worldNormal = DecodeNormal(materialData.x);
++	vec3 worldNormal = texture(colortex6, texcoord).rgb; //fragn
+     vec3 normal = mat3(gbufferModelView) * worldNormal;
+ 
+     vec2 coord = texcoord;
+ 
+-    vec3 flatWorldNormal = DecodeNormal(texture(colortex6, texcoord).r);
+-    vec3 flatNormal = mat3(gbufferModelView) * flatWorldNormal;
+-    flatWorldNormal = worldNormal;
+-    flatNormal = normal;
++    vec3 flatWorldNormal = worldNormal; //fragn
++    vec3 flatNormal = normal;
+ 
+     #ifdef REFRACTION
+         if (isTransparent) {
+@@ -911,9 +909,9 @@ void main() {
+         
+         vec3 shadows;
+ 
+-        if (isMetal) {
+-            flatWorldNormal = DecodeNormal(texture(colortex5, texcoord).a);
+-        }
++        /*if (isMetal) { //fragn
++            flatWorldNormal = DecodeNormal(texture(colortex5, texcoord).a); 
++        }*/
+         
+         vec3 scatteredLit = CalculateDiffuseLighting(position0, vec3(0.0), sample0.rgb, normal, worldNormal, flatWorldNormal, -flatVdir, depth1, roughness, reflectivity, metalIOR, vec2(torchLightmap, skyLightmap), dither, 1.0, false, false, false, false, shadows, materialID, 0.0);
+     
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/Composite4.glsl b/Continuum 2.1 forRTM 0.5.0/shaders/Composite4.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/Composite4.glsl
+rename to Continuum 2.1 forRTM 0.5.0/shaders/Composite4.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/Final.glsl b/Continuum 2.1 forRTM 0.5.0/shaders/Final.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/Final.glsl
+rename to Continuum 2.1 forRTM 0.5.0/shaders/Final.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/FlipCopy.glsl b/Continuum 2.1 forRTM 0.5.0/shaders/FlipCopy.glsl
+similarity index 88%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/FlipCopy.glsl
+rename to Continuum 2.1 forRTM 0.5.0/shaders/FlipCopy.glsl
+index 3898cc4..d8f617a 100644
+--- a/Continuum 2.1 forRTM 0.4.0/shaders/FlipCopy.glsl	
++++ b/Continuum 2.1 forRTM 0.5.0/shaders/FlipCopy.glsl	
+@@ -30,14 +30,17 @@ void main() {
+ #include "/../ContinuumLib/Debug.glsl"
+ 
+ uniform sampler2D colortex2;
++uniform sampler2D colortex6;
+ 
+-/* DRAWBUFFERS:2 */
++/* DRAWBUFFERS:26 */
+ layout(location = 0) out vec4 Buffer2;
++layout(location = 1) out vec4 Buffer6; //fragn
+ #define LAYOUT_0 Buffer2
+ #include "/../ContinuumLib/Exit.glsl"
+ 
+ void main() {
+     Buffer2 = texture(colortex2, texcoord); // Copy A to B
++    Buffer6 = texture(colortex6, texcoord);
+     
+     if (Buffer2.r + Buffer2.g + Buffer2.b + Buffer2.a <= 0.0)
+         discard;
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/GbuffersDiscard.glsl b/Continuum 2.1 forRTM 0.5.0/shaders/GbuffersDiscard.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/GbuffersDiscard.glsl
+rename to Continuum 2.1 forRTM 0.5.0/shaders/GbuffersDiscard.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/GbuffersMain.glsl b/Continuum 2.1 forRTM 0.5.0/shaders/GbuffersMain.glsl
+similarity index 99%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/GbuffersMain.glsl
+rename to Continuum 2.1 forRTM 0.5.0/shaders/GbuffersMain.glsl
+index c91037b..79f4b2d 100644
+--- a/Continuum 2.1 forRTM 0.4.0/shaders/GbuffersMain.glsl	
++++ b/Continuum 2.1 forRTM 0.5.0/shaders/GbuffersMain.glsl	
+@@ -401,6 +401,7 @@ void main() {
+     #endif
+ 
+     vec4 normalTexture     = sampleTexture(normals, pomCoord, texD);
++    normalTexture.xy = (normalTexture.x == 128./255.) && (normalTexture.y == 128./255.)? vec2(0.5) : normalTexture.xy; //fragn
+ 
+     float ao = normalTexture.z * float(normalTexture.z > 0.0) + float(normalTexture.z <= 0.0);
+ 
+@@ -582,7 +583,7 @@ void main() {
+     
+     Buffer2 = materialData;
+ 
+-    Buffer6 = vec4(EncodeNormal(flatNormal), 0.0, 0.0, 1.0);
++    Buffer6 = vec4(normal, 1.0);
+     Buffer7 = vec4(emissivity ,0.0,0.0,0.0); //0 ~ 1
+ 	
+ 	exit();
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/PostProcess0.glsl b/Continuum 2.1 forRTM 0.5.0/shaders/PostProcess0.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/PostProcess0.glsl
+rename to Continuum 2.1 forRTM 0.5.0/shaders/PostProcess0.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/ShaderConstants.glsl b/Continuum 2.1 forRTM 0.5.0/shaders/ShaderConstants.glsl
+similarity index 95%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/ShaderConstants.glsl
+rename to Continuum 2.1 forRTM 0.5.0/shaders/ShaderConstants.glsl
+index 120b743..1a73369 100644
+--- a/Continuum 2.1 forRTM 0.4.0/shaders/ShaderConstants.glsl	
++++ b/Continuum 2.1 forRTM 0.5.0/shaders/ShaderConstants.glsl	
+@@ -13,7 +13,7 @@ const int colortex2Format = RGBA16; //Big Data
+ const int colortex3Format = RGBA16F;  //Misc Data (Unused in base)
+ const int colortex4Format = RGBA8;  //Feedback
+ const int colortex5Format = RGBA16;  //Rain and metal albedo
+-const int colortex6Format = R16;    //Flat encoded normal
++const int colortex6Format = RGBA32F;    //Flat encoded normal //fragn
+ const int colortex7Format = RGBA32F;    //Flat encoded normal
+ 
+ const bool colortex0Clear = false;
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/Shadow.glsl b/Continuum 2.1 forRTM 0.5.0/shaders/Shadow.glsl
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/Shadow.glsl
+rename to Continuum 2.1 forRTM 0.5.0/shaders/Shadow.glsl
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/block.properties b/Continuum 2.1 forRTM 0.5.0/shaders/block.properties
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/block.properties
+rename to Continuum 2.1 forRTM 0.5.0/shaders/block.properties
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/lang/en_US.lang b/Continuum 2.1 forRTM 0.5.0/shaders/lang/en_US.lang
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/lang/en_US.lang
+rename to Continuum 2.1 forRTM 0.5.0/shaders/lang/en_US.lang
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/shaders.properties b/Continuum 2.1 forRTM 0.5.0/shaders/shaders.properties
+similarity index 99%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/shaders.properties
+rename to Continuum 2.1 forRTM 0.5.0/shaders/shaders.properties
+index f45c75a..dd89b7b 100644
+--- a/Continuum 2.1 forRTM 0.4.0/shaders/shaders.properties	
++++ b/Continuum 2.1 forRTM 0.5.0/shaders/shaders.properties	
+@@ -20,9 +20,10 @@ flip.composite2.colortex1=true
+ flip.composite_pre.colortex5=false
+ flip.composite3.colortex5=true
+ 
+-flip.deferred_pre.colortex6=true
++flip.deferred_pre.colortex6=false
+ flip.composite_pre.colortex6=true
+ flip.composite2.colortex6=true
++#fragn
+ 
+ flip.deferred_pre.colortex2=false
+ flip.composite_pre.colortex2=true
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite1.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite1.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite1.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite1.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite1.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite1.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite1.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite1.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite10.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite10.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite10.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite10.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite10.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite10.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite10.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite10.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite2.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite2.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite2.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite2.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite2.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite2.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite2.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite2.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite3.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite3.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite3.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite3.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite3.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite3.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite3.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite3.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite4.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite4.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite4.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite4.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite4.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite4.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite4.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite4.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite8.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite8.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite8.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite8.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite8.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite8.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite8.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite8.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite9.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite9.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite9.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite9.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite9.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite9.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/composite9.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/composite9.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/deferred.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/deferred.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/deferred.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/deferred.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/deferred.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/deferred.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/deferred.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/deferred.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/final.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/final.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/final.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/final.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/final.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/final.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/final.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/final.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_basic.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_basic.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_basic.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_basic.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_basic.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_basic.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_basic.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_basic.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_block.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_block.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_block.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_block.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_block.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_block.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_block.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_block.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_entities.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_entities.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_entities.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_entities.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_entities.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_entities.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_entities.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_entities.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_hand.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_hand.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_hand.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_hand.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_hand.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_hand.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_hand.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_hand.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_skybasic.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_skybasic.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_skybasic.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_skybasic.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_skybasic.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_skybasic.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_skybasic.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_skybasic.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_skytextured.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_skytextured.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_skytextured.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_skytextured.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_skytextured.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_skytextured.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_skytextured.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_skytextured.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_terrain.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_terrain.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_terrain.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_terrain.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_terrain.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_terrain.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_terrain.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_terrain.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_textured.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_textured.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_textured.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_textured.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_textured.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_textured.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_textured.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_textured.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_water.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_water.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_water.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_water.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_water.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_water.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_water.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_water.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_weather.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_weather.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_weather.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_weather.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_weather.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_weather.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/gbuffers_weather.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/gbuffers_weather.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/shadow.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/shadow.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/shadow.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/shadow.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world-1/shadow.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world-1/shadow.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world-1/shadow.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world-1/shadow.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite1.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite1.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite1.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite1.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite1.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite1.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite1.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite1.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite10.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite10.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite10.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite10.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite10.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite10.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite10.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite10.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite2.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite2.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite2.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite2.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite2.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite2.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite2.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite2.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite3.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite3.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite3.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite3.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite3.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite3.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite3.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite3.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite4.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite4.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite4.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite4.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite4.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite4.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite4.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite4.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite8.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite8.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite8.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite8.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite8.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite8.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite8.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite8.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite9.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite9.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite9.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite9.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/composite9.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/composite9.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/composite9.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/composite9.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/deferred.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/deferred.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/deferred.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/deferred.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/deferred.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/deferred.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/deferred.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/deferred.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/final.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/final.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/final.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/final.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/final.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/final.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/final.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/final.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_basic.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_basic.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_basic.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_basic.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_basic.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_basic.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_basic.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_basic.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_block.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_block.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_block.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_block.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_block.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_block.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_block.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_block.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_entities.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_entities.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_entities.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_entities.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_entities.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_entities.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_entities.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_entities.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_hand.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_hand.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_hand.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_hand.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_hand.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_hand.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_hand.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_hand.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_skybasic.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_skybasic.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_skybasic.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_skybasic.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_skybasic.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_skybasic.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_skybasic.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_skybasic.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_skytextured.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_skytextured.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_skytextured.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_skytextured.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_skytextured.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_skytextured.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_skytextured.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_skytextured.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_terrain.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_terrain.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_terrain.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_terrain.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_terrain.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_terrain.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_terrain.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_terrain.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_textured.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_textured.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_textured.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_textured.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_textured.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_textured.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_textured.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_textured.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_water.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_water.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_water.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_water.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_water.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_water.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_water.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_water.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_weather.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_weather.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_weather.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_weather.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_weather.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_weather.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/gbuffers_weather.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/gbuffers_weather.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/shadow.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/shadow.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/shadow.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/shadow.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world0/shadow.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world0/shadow.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world0/shadow.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world0/shadow.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite1.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite1.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite1.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite1.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite1.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite1.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite1.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite1.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite10.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite10.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite10.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite10.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite10.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite10.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite10.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite10.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite2.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite2.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite2.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite2.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite2.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite2.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite2.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite2.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite3.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite3.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite3.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite3.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite3.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite3.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite3.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite3.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite4.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite4.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite4.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite4.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite4.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite4.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite4.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite4.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite8.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite8.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite8.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite8.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite8.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite8.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite8.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite8.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite9.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite9.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite9.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite9.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/composite9.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/composite9.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/composite9.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/composite9.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/deferred.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/deferred.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/deferred.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/deferred.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/deferred.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/deferred.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/deferred.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/deferred.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/final.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/final.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/final.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/final.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/final.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/final.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/final.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/final.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_basic.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_basic.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_basic.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_basic.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_basic.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_basic.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_basic.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_basic.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_block.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_block.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_block.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_block.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_block.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_block.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_block.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_block.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_entities.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_entities.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_entities.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_entities.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_entities.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_entities.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_entities.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_entities.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_hand.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_hand.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_hand.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_hand.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_hand.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_hand.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_hand.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_hand.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_skybasic.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_skybasic.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_skybasic.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_skybasic.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_skybasic.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_skybasic.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_skybasic.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_skybasic.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_skytextured.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_skytextured.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_skytextured.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_skytextured.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_skytextured.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_skytextured.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_skytextured.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_skytextured.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_terrain.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_terrain.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_terrain.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_terrain.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_terrain.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_terrain.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_terrain.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_terrain.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_textured.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_textured.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_textured.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_textured.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_textured.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_textured.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_textured.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_textured.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_water.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_water.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_water.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_water.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_water.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_water.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_water.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_water.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_weather.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_weather.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_weather.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_weather.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_weather.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_weather.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/gbuffers_weather.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/gbuffers_weather.vsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/shadow.fsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/shadow.fsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/shadow.fsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/shadow.fsh
+diff --git a/Continuum 2.1 forRTM 0.4.0/shaders/world1/shadow.vsh b/Continuum 2.1 forRTM 0.5.0/shaders/world1/shadow.vsh
+similarity index 100%
+rename from Continuum 2.1 forRTM 0.4.0/shaders/world1/shadow.vsh
+rename to Continuum 2.1 forRTM 0.5.0/shaders/world1/shadow.vsh
